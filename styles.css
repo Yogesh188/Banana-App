@@ -10,9 +10,13 @@ textarea{
 button{
     height:2rem;
     border-color:black;
-    width: 80%;
-    align-self: center;
-    align-content: center;
-    text-align: center;
+    width: 87%;
 }
 
+#output{
+    border:1px solid black;
+    height:5rem;
+    width: 80%;
+    align-self: center;
+    padding:1rem 1rem;
+}
