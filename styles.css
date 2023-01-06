@@ -1,31 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+
+
 textarea{
     height:5rem;
-    border-color:red;
+    border-color:gray;
     width: 80%;
     align-self: center;
     padding:1rem 1rem;
-    
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
 }
 
 body {
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fef9c3;
 }
 
 button{
     height:4rem;
-    border-color:black;
+    border-color:gray;
     width: 80%;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fde047;
 }
 
 #output{
-    border:1px solid black;
+    border:1px solid gray;
+    background-color: white;
     height:5rem;
     width: 80%;
     align-self: center;
     padding:1rem 1rem;
     margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: large;
+}
+
+nav{
+    height:1 rem;
+    padding:1rem 1rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    background-color: #fbbf24;
+    font-size:x-large;
+}
+
+img {
+    height: auto;  
+    max-width: 90%;
+    max-height: 200px;  
+  }
+
+footer{
+    height:2 rem;
+    padding:1rem 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fbbf24;
+}
+
+p{
+    font-size:medium;
 }
